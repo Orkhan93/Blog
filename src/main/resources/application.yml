@@ -1,6 +1,17 @@
 server:
   port: 8090
 spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: orkhanmustafaev93@gmail.com
+    password: mwtgyixdvnytbiku
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
   jpa:
     hibernate:
       ddl-auto: update
@@ -25,3 +36,5 @@ jwt:
 encryption:
   salt:
     rounds: 10
+email:
+  from: orkhanmustafaev93@gmail.com
