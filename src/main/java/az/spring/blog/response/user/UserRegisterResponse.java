@@ -1,4 +1,4 @@
-package az.spring.blog.response;
+package az.spring.blog.response.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -16,7 +16,6 @@ public class UserRegisterResponse {
     private String email;
     private String username;
     private String name;
-    private String password;
     private String surname;
     private String phoneNumber;
     private Boolean status;

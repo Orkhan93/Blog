@@ -1,4 +1,4 @@
-package az.spring.blog.request;
+package az.spring.blog.request.user;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
