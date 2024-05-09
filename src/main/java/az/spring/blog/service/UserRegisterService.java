@@ -7,6 +7,7 @@ import az.spring.blog.mapper.UserMapper;
 import az.spring.blog.repository.UserRepository;
 import az.spring.blog.request.user.UserRegisterRequest;
 import az.spring.blog.response.user.UserRegisterResponse;
+import az.spring.blog.security.EncryptionService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -20,6 +21,7 @@ public class UserRegisterService {
 
     private final UserRepository userRepository;
     private final UserMapper userMapper;
+    private final EncryptionService encryptionService;
 
     public UserRegisterResponse registerUser(UserRegisterRequest userRegistration) throws UserAlreadyExistsException {
         log.info("Inside userRegistration {}", userRegistration);
@@ -28,12 +30,9 @@ public class UserRegisterService {
             throw new UserAlreadyExistsException(BAD_REQUEST.name(), ErrorMessage.USER_ALREADY_EXISTS);
         }
         User user = userMapper.requestToEntity(userRegistration);
-//        user.setPassword(encryptionService.encryptPassword(userRegistration.getPassword()));
-
-//        VerificationToken verificationToken = createVerificationToken(user);
-//        emailService.sendVerificationEmail(verificationToken);
+        user.setPassword(encryptionService.encryptPassword(userRegistration.getPassword()));
         log.info("Inside register {}", user);
-        return userMapper.entityToResponse(userRepository.save(user));
+        return userMapper.entityToRegisterResponse(userRepository.save(user));
     }
 
 }
