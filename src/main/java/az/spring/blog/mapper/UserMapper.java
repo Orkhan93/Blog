@@ -1,18 +1,17 @@
 package az.spring.blog.mapper;
 
 import az.spring.blog.entity.user.User;
-import az.spring.blog.request.UserRegisterRequest;
-import az.spring.blog.response.UserRegisterResponse;
+import az.spring.blog.request.user.UserRegisterRequest;
+import az.spring.blog.response.user.UserRegisterResponse;
 import org.mapstruct.Mapper;
-import org.mapstruct.MappingTarget;
 import org.mapstruct.ReportingPolicy;
 
 @Mapper(componentModel = "spring", unmappedSourcePolicy = ReportingPolicy.IGNORE,
         unmappedTargetPolicy = ReportingPolicy.IGNORE)
 public interface UserMapper {
 
-    User requestToEntity(@MappingTarget User user, UserRegisterRequest request);
+    User requestToEntity(UserRegisterRequest request);
 
-    UserRegisterResponse entityToResponse(@MappingTarget UserRegisterResponse response, User user);
+    UserRegisterResponse entityToResponse(User user);
 
 }

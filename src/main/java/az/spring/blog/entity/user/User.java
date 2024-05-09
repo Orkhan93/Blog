@@ -42,10 +42,10 @@ public class User {
     private Boolean status;
 
     @Column(name = "created_by")
-    private String createdBy;
+    private Long createdBy;
 
     @Column(name = "updated_by")
-    private String updatedBy;
+    private Long updatedBy;
 
     @Column(name = "created_at")
     private LocalDateTime createdAt;
@@ -56,10 +56,11 @@ public class User {
     @Column(name = "email_verified", nullable = false)
     private Boolean emailVerified = false;
 
-    @PrePersist
+    @PostPersist
     public void prePersist() {
         status = true;
         createdAt = LocalDateTime.now();
+        createdBy = getId();
     }
 
 }
