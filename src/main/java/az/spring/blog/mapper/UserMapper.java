@@ -1,6 +1,6 @@
 package az.spring.blog.mapper;
 
-import az.spring.blog.entity.User;
+import az.spring.blog.entity.user.User;
 import az.spring.blog.request.UserRegisterRequest;
 import az.spring.blog.response.UserRegisterResponse;
 import org.mapstruct.Mapper;
