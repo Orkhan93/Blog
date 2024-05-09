@@ -1,4 +1,4 @@
-package az.spring.blog.entity;
+package az.spring.blog.entity.user;
 
 import jakarta.persistence.*;
 import lombok.Getter;
