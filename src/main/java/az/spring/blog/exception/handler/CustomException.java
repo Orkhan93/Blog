@@ -1,5 +1,6 @@
 package az.spring.blog.exception.handler;
 
+import az.spring.blog.exception.IncorrectPasswordException;
 import az.spring.blog.exception.UserAlreadyExistsException;
 import az.spring.blog.exception.UserNotFoundException;
 import az.spring.blog.exception.error.ErrorResponse;
@@ -45,6 +46,13 @@ public class CustomException {
     @ResponseStatus(HttpStatus.NOT_FOUND)
     public ProblemDetail handlerIllegalArgumentException(IllegalArgumentException exception) {
         log.error("handlerIllegalArgumentException {}", exception.getMessage());
+        return ProblemDetail.forStatusAndDetail(HttpStatus.BAD_REQUEST, exception.getMessage());
+    }
+
+    @ExceptionHandler(IncorrectPasswordException.class)
+    @ResponseStatus(HttpStatus.NOT_FOUND)
+    public ProblemDetail handlerIncorrectPasswordException(IncorrectPasswordException exception) {
+        log.error("handlerIncorrectPasswordException {}", exception.getMessage());
         return ProblemDetail.forStatusAndDetail(HttpStatus.BAD_REQUEST, exception.getMessage());
     }
 

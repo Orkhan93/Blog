@@ -17,3 +17,11 @@ logging:
     az.spring.uni-tech: DEBUG
     org.springframework.web: ERROR
     org.hibernate: ERROR
+jwt:
+  algorithm:
+    key: SuperSecureSecretKey
+  issuer: blog
+  expiryInSeconds: 604800
+encryption:
+  salt:
+    rounds: 10
