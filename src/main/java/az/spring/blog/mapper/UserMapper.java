@@ -2,6 +2,7 @@ package az.spring.blog.mapper;
 
 import az.spring.blog.entity.user.User;
 import az.spring.blog.request.user.UserRegisterRequest;
+import az.spring.blog.response.user.UserReadResponse;
 import az.spring.blog.response.user.UserRegisterResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
@@ -12,6 +13,8 @@ public interface UserMapper {
 
     User requestToEntity(UserRegisterRequest request);
 
-    UserRegisterResponse entityToResponse(User user);
+    UserRegisterResponse entityToRegisterResponse(User user);
+
+    UserReadResponse entityToReadResponse(User user);
 
 }

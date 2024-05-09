@@ -408,3 +408,496 @@ java.lang.NoSuchMethodError: 'java.lang.String az.spring.blog.entity.user.User.g
 2024-05-09T17:07:28.347+04:00  INFO 15136 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-05-09T17:07:28.349+04:00  INFO 15136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-05-09T17:07:28.359+04:00  INFO 15136 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T17:52:08.028+04:00  INFO 19932 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 19932 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T17:52:08.032+04:00  INFO 19932 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T17:52:08.831+04:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T17:52:08.908+04:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2024-05-09T17:52:09.521+04:00  INFO 19932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T17:52:09.537+04:00  INFO 19932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T17:52:09.537+04:00  INFO 19932 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T17:52:09.663+04:00  INFO 19932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T17:52:09.663+04:00  INFO 19932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1555 ms
+2024-05-09T17:52:10.230+04:00  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T17:52:10.634+04:00  INFO 19932 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@75ed7512
+2024-05-09T17:52:10.634+04:00  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T17:52:10.722+04:00  INFO 19932 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T17:52:11.922+04:00  INFO 19932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:52:12.395+04:00  WARN 19932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T17:52:12.710+04:00  WARN 19932 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3440c206-d43f-4551-ab94-c03d1d9f3dac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T17:52:12.836+04:00  INFO 19932 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4a7427f9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@155767a7, org.springframework.security.web.context.SecurityContextHolderFilter@53b83897, org.springframework.security.web.header.HeaderWriterFilter@61e34bec, org.springframework.security.web.csrf.CsrfFilter@c194c4e, org.springframework.security.web.authentication.logout.LogoutFilter@77e1b84c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@53086bdc, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6de2344a, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@5418a659, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@73158d35, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@372e972d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@428e9be2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46067a74, org.springframework.security.web.access.ExceptionTranslationFilter@53cb9b1, org.springframework.security.web.access.intercept.AuthorizationFilter@74159dc9]
+2024-05-09T17:52:12.899+04:00  INFO 19932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T17:52:12.914+04:00  INFO 19932 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 5.578 seconds (process running for 6.362)
+2024-05-09T17:53:15.610+04:00  INFO 19932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:53:15.615+04:00  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T17:53:15.632+04:00  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T17:53:20.992+04:00  INFO 13728 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 13728 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T17:53:20.995+04:00  INFO 13728 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T17:53:21.707+04:00  INFO 13728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T17:53:21.763+04:00  INFO 13728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
+2024-05-09T17:53:22.284+04:00  INFO 13728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T17:53:22.292+04:00  INFO 13728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T17:53:22.292+04:00  INFO 13728 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T17:53:22.375+04:00  INFO 13728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T17:53:22.376+04:00  INFO 13728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1327 ms
+2024-05-09T17:53:22.854+04:00  INFO 13728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T17:53:23.162+04:00  INFO 13728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@39a7eca5
+2024-05-09T17:53:23.164+04:00  INFO 13728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T17:53:23.229+04:00  INFO 13728 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T17:53:24.236+04:00  INFO 13728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:53:24.243+04:00  WARN 13728 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfiguration' defined in file [C:\Users\User\Blog\target\classes\az\spring\blog\config\WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'az.spring.security.JwtRequestFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-05-09T17:53:24.248+04:00  INFO 13728 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:53:24.253+04:00  INFO 13728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T17:53:24.272+04:00  INFO 13728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T17:53:24.275+04:00  INFO 13728 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T17:53:24.295+04:00  INFO 13728 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T17:53:24.329+04:00 ERROR 13728 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in az.spring.blog.config.WebSecurityConfiguration required a bean of type 'az.spring.security.JwtRequestFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'az.spring.security.JwtRequestFilter' in your configuration.
+
+2024-05-09T17:53:59.809+04:00  INFO 22536 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 22536 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T17:53:59.812+04:00  INFO 22536 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T17:54:00.518+04:00  INFO 22536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T17:54:00.597+04:00  INFO 22536 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2024-05-09T17:54:01.126+04:00  INFO 22536 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T17:54:01.133+04:00  INFO 22536 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T17:54:01.134+04:00  INFO 22536 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T17:54:01.241+04:00  INFO 22536 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T17:54:01.242+04:00  INFO 22536 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1378 ms
+2024-05-09T17:54:01.797+04:00  INFO 22536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T17:54:02.067+04:00  INFO 22536 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@41a23470
+2024-05-09T17:54:02.068+04:00  INFO 22536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T17:54:02.133+04:00  INFO 22536 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T17:54:02.958+04:00  INFO 22536 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:54:02.964+04:00  WARN 22536 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'webSecurityConfiguration' defined in file [C:\Users\User\Blog\target\classes\az\spring\blog\config\WebSecurityConfiguration.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'az.spring.security.JwtRequestFilter' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-05-09T17:54:02.965+04:00  INFO 22536 --- [main] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:54:02.968+04:00  INFO 22536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T17:54:02.980+04:00  INFO 22536 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T17:54:02.981+04:00  INFO 22536 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-05-09T17:54:02.991+04:00  INFO 22536 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-05-09T17:54:03.007+04:00 ERROR 22536 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in az.spring.blog.config.WebSecurityConfiguration required a bean of type 'az.spring.security.JwtRequestFilter' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'az.spring.security.JwtRequestFilter' in your configuration.
+
+2024-05-09T17:55:08.609+04:00  INFO 3604 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 3604 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T17:55:08.612+04:00  INFO 3604 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T17:55:09.387+04:00  INFO 3604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T17:55:09.461+04:00  INFO 3604 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 67 ms. Found 1 JPA repository interfaces.
+2024-05-09T17:55:10.098+04:00  INFO 3604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T17:55:10.107+04:00  INFO 3604 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T17:55:10.107+04:00  INFO 3604 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T17:55:10.216+04:00  INFO 3604 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T17:55:10.218+04:00  INFO 3604 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1556 ms
+2024-05-09T17:55:10.679+04:00  INFO 3604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T17:55:11.007+04:00  INFO 3604 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@138a85d3
+2024-05-09T17:55:11.010+04:00  INFO 3604 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T17:55:11.065+04:00  INFO 3604 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T17:55:11.931+04:00  INFO 3604 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:55:12.354+04:00  WARN 3604 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T17:55:12.386+04:00  WARN 3604 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1c003c06-d69a-4805-a4e7-48c8f796605b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T17:55:12.664+04:00  INFO 3604 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@981d9d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ad6448e, org.springframework.security.web.context.SecurityContextHolderFilter@6a8ab98f, org.springframework.security.web.header.HeaderWriterFilter@4afdb05e, org.springframework.security.web.authentication.logout.LogoutFilter@46ab8e4b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@429dde4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b625e82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3da6950f, org.springframework.security.web.access.ExceptionTranslationFilter@260f05ee, az.spring.blog.security.JwtRequestFilter@5b72b13a, org.springframework.security.web.access.intercept.AuthorizationFilter@89178b4]
+2024-05-09T17:55:12.856+04:00  INFO 3604 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T17:55:12.863+04:00  INFO 3604 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.758 seconds (process running for 5.408)
+2024-05-09T17:55:25.576+04:00  INFO 3604 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T17:56:03.566+04:00  INFO 3604 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:56:03.568+04:00  INFO 3604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T17:56:03.591+04:00  INFO 3604 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T17:56:08.627+04:00  INFO 14236 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 14236 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T17:56:08.629+04:00  INFO 14236 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T17:56:09.280+04:00  INFO 14236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T17:56:09.348+04:00  INFO 14236 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-05-09T17:56:09.841+04:00  INFO 14236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T17:56:09.851+04:00  INFO 14236 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T17:56:09.851+04:00  INFO 14236 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T17:56:09.944+04:00  INFO 14236 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T17:56:09.945+04:00  INFO 14236 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1271 ms
+2024-05-09T17:56:10.348+04:00  INFO 14236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T17:56:10.645+04:00  INFO 14236 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@709d86a2
+2024-05-09T17:56:10.647+04:00  INFO 14236 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T17:56:10.706+04:00  INFO 14236 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T17:56:11.601+04:00  INFO 14236 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:56:11.926+04:00  WARN 14236 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T17:56:11.952+04:00  WARN 14236 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 91d320cd-58d6-4fee-8fcc-5143eebebb92
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T17:56:12.185+04:00  INFO 14236 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@981d9d2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ad6448e, org.springframework.security.web.context.SecurityContextHolderFilter@6a8ab98f, org.springframework.security.web.header.HeaderWriterFilter@4afdb05e, org.springframework.security.web.authentication.logout.LogoutFilter@46ab8e4b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@429dde4d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b625e82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3da6950f, org.springframework.security.web.access.ExceptionTranslationFilter@260f05ee, az.spring.blog.security.JwtRequestFilter@63e648a0, org.springframework.security.web.access.intercept.AuthorizationFilter@89178b4]
+2024-05-09T17:56:12.373+04:00  INFO 14236 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T17:56:12.386+04:00  INFO 14236 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.323 seconds (process running for 4.969)
+2024-05-09T17:56:15.802+04:00  INFO 14236 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T17:56:15.919+04:00  INFO 14236 --- [http-nio-8090-exec-2] a.s.blog.service.UserRegisterService     : Inside userRegistration az.spring.blog.request.user.UserRegisterRequest@31f88c18
+2024-05-09T17:56:16.044+04:00  INFO 14236 --- [http-nio-8090-exec-2] a.s.blog.service.UserRegisterService     : Inside register az.spring.blog.entity.user.User@2e3fdbf9
+2024-05-09T17:56:19.191+04:00  INFO 14236 --- [http-nio-8090-exec-3] a.s.blog.service.UserRegisterService     : Inside userRegistration az.spring.blog.request.user.UserRegisterRequest@36ad767c
+2024-05-09T17:56:19.205+04:00 ERROR 14236 --- [http-nio-8090-exec-3] a.s.b.exception.handler.CustomException  : handlerUserAlreadyExistsException BAD_REQUEST
+2024-05-09T17:56:28.314+04:00  INFO 14236 --- [http-nio-8090-exec-5] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@114aff6b
+2024-05-09T17:56:28.320+04:00 ERROR 14236 --- [http-nio-8090-exec-5] a.s.b.exception.handler.CustomException  : handlerIllegalArgumentException Invalid salt
+2024-05-09T17:57:15.849+04:00  INFO 14236 --- [http-nio-8090-exec-7] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@4fb5ea36
+2024-05-09T17:57:15.857+04:00 ERROR 14236 --- [http-nio-8090-exec-7] a.s.b.exception.handler.CustomException  : handlerIllegalArgumentException Invalid salt
+2024-05-09T17:57:36.105+04:00  INFO 14236 --- [http-nio-8090-exec-9] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@3c872ec0
+2024-05-09T17:57:36.111+04:00 ERROR 14236 --- [http-nio-8090-exec-9] a.s.b.exception.handler.CustomException  : handlerIllegalArgumentException Invalid salt
+2024-05-09T17:58:11.151+04:00  INFO 14236 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T17:58:11.151+04:00  INFO 14236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T17:58:11.166+04:00  INFO 14236 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T21:54:16.141+04:00  INFO 25400 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 25400 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T21:54:16.144+04:00  INFO 25400 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T21:54:17.122+04:00  INFO 25400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T21:54:17.201+04:00  INFO 25400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2024-05-09T21:54:17.833+04:00  INFO 25400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T21:54:17.843+04:00  INFO 25400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T21:54:17.843+04:00  INFO 25400 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T21:54:17.940+04:00  INFO 25400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T21:54:17.940+04:00  INFO 25400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1736 ms
+2024-05-09T21:54:18.431+04:00  INFO 25400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T21:54:18.815+04:00  INFO 25400 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ab33ca8
+2024-05-09T21:54:18.815+04:00  INFO 25400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T21:54:18.887+04:00  INFO 25400 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T21:54:19.985+04:00  INFO 25400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T21:54:20.549+04:00  WARN 25400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T21:54:20.595+04:00  WARN 25400 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9ddd3c1a-60b9-4e2b-9570-10f0299575d1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T21:54:21.076+04:00  INFO 25400 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@129348e8, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@20ad64c, org.springframework.security.web.context.SecurityContextHolderFilter@2111d7b9, org.springframework.security.web.header.HeaderWriterFilter@5ce0f50a, org.springframework.security.web.authentication.logout.LogoutFilter@2319c1e0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@260f05ee, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7f9b851c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@39a03ccc, org.springframework.security.web.access.ExceptionTranslationFilter@8cce9ad, az.spring.blog.security.JwtRequestFilter@585672dd, org.springframework.security.web.access.intercept.AuthorizationFilter@e21d73]
+2024-05-09T21:54:21.327+04:00  INFO 25400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T21:54:21.327+04:00  INFO 25400 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 5.897 seconds (process running for 6.911)
+2024-05-09T21:56:16.963+04:00  INFO 25400 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T21:56:17.110+04:00  INFO 25400 --- [http-nio-8090-exec-2] a.s.blog.service.UserRegisterService     : Inside userRegistration az.spring.blog.request.user.UserRegisterRequest@65bcc4f9
+2024-05-09T21:56:17.370+04:00  INFO 25400 --- [http-nio-8090-exec-2] a.s.blog.service.UserRegisterService     : Inside register az.spring.blog.entity.user.User@337650c6
+2024-05-09T21:56:38.526+04:00  INFO 25400 --- [http-nio-8090-exec-3] a.s.blog.service.UserRegisterService     : Inside userRegistration az.spring.blog.request.user.UserRegisterRequest@14d8077
+2024-05-09T21:56:38.545+04:00 ERROR 25400 --- [http-nio-8090-exec-3] a.s.b.exception.handler.CustomException  : handlerUserAlreadyExistsException BAD_REQUEST
+2024-05-09T21:57:03.817+04:00  INFO 25400 --- [http-nio-8090-exec-5] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@5392e07e
+2024-05-09T21:57:09.887+04:00  INFO 25400 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T21:57:09.887+04:00  INFO 25400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T21:57:09.887+04:00  INFO 25400 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:09:28.517+04:00  INFO 6268 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 6268 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:09:28.521+04:00  INFO 6268 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:09:29.245+04:00  INFO 6268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:09:29.344+04:00  INFO 6268 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 83 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:09:29.914+04:00  INFO 6268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:09:29.924+04:00  INFO 6268 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:09:29.925+04:00  INFO 6268 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:09:30.034+04:00  INFO 6268 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:09:30.035+04:00  INFO 6268 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1456 ms
+2024-05-09T22:09:30.477+04:00  INFO 6268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:09:30.771+04:00  INFO 6268 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2024-05-09T22:09:30.772+04:00  INFO 6268 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:09:30.828+04:00  INFO 6268 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:09:31.694+04:00  INFO 6268 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:09:32.059+04:00  WARN 6268 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:09:32.090+04:00  WARN 6268 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 232c672a-d537-471f-99b3-6c1c195bc982
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:09:32.374+04:00  INFO 6268 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7d6a9d5e, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@74ed7111, org.springframework.security.web.context.SecurityContextHolderFilter@7a1878d, org.springframework.security.web.header.HeaderWriterFilter@429dde4d, org.springframework.security.web.authentication.logout.LogoutFilter@129348e8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@22657db1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@630bd5e7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74691677, org.springframework.security.web.access.ExceptionTranslationFilter@6a8ab98f, az.spring.blog.security.JwtRequestFilter@48cbe1c9, org.springframework.security.web.access.intercept.AuthorizationFilter@3da6950f]
+2024-05-09T22:09:32.606+04:00  INFO 6268 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:09:32.615+04:00  INFO 6268 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.658 seconds (process running for 5.309)
+2024-05-09T22:10:37.013+04:00  INFO 6268 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:11:39.136+04:00  INFO 6268 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:11:39.139+04:00  INFO 6268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:11:39.139+04:00  INFO 6268 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:12:21.486+04:00  INFO 19500 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 19500 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:12:21.489+04:00  INFO 19500 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:12:22.241+04:00  INFO 19500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:12:22.316+04:00  INFO 19500 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 66 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:12:22.797+04:00  INFO 19500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:12:22.805+04:00  INFO 19500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:12:22.805+04:00  INFO 19500 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:12:22.890+04:00  INFO 19500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:12:22.891+04:00  INFO 19500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1345 ms
+2024-05-09T22:12:23.296+04:00  INFO 19500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:12:23.562+04:00  INFO 19500 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59baf2c7
+2024-05-09T22:12:23.563+04:00  INFO 19500 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:12:23.621+04:00  INFO 19500 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:12:24.544+04:00  INFO 19500 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:12:24.853+04:00  WARN 19500 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:12:24.882+04:00  WARN 19500 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: dfd5c8b6-c801-4ca5-8849-9f3bcfbe939e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:12:25.140+04:00  INFO 19500 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@45a05350, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7d6a9d5e, org.springframework.security.web.context.SecurityContextHolderFilter@5ef48b08, org.springframework.security.web.header.HeaderWriterFilter@4d529bc0, org.springframework.security.web.authentication.logout.LogoutFilter@600b3bee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2b625e82, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6a0aa5e2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@74ed7111, org.springframework.security.web.access.ExceptionTranslationFilter@7f9b851c, az.spring.blog.security.JwtRequestFilter@6a6a3fc4, org.springframework.security.web.access.intercept.AuthorizationFilter@ad6448e]
+2024-05-09T22:12:25.381+04:00  INFO 19500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:12:25.389+04:00  INFO 19500 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.555 seconds (process running for 5.202)
+2024-05-09T22:12:34.317+04:00  INFO 19500 --- [http-nio-8090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:12:59.661+04:00  INFO 19500 --- [http-nio-8090-exec-2] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@60e59454
+2024-05-09T22:15:23.833+04:00  INFO 19500 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:15:23.836+04:00  INFO 19500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:15:23.849+04:00  INFO 19500 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:15:26.946+04:00  INFO 13052 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 13052 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:15:26.948+04:00  INFO 13052 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:15:27.658+04:00  INFO 13052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:15:27.717+04:00  INFO 13052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:15:28.210+04:00  INFO 13052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:15:28.217+04:00  INFO 13052 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:15:28.217+04:00  INFO 13052 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:15:28.315+04:00  INFO 13052 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:15:28.316+04:00  INFO 13052 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1313 ms
+2024-05-09T22:15:28.711+04:00  INFO 13052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:15:29.018+04:00  INFO 13052 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3973b6d4
+2024-05-09T22:15:29.020+04:00  INFO 13052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:15:29.075+04:00  INFO 13052 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:15:29.962+04:00  INFO 13052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:15:30.259+04:00  WARN 13052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:15:30.290+04:00  WARN 13052 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cb49d065-2efe-4456-a3aa-9085cf1d5d74
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:15:30.538+04:00  INFO 13052 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@363a09a2, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63d14dbf, org.springframework.security.web.context.SecurityContextHolderFilter@6d77d269, org.springframework.security.web.header.HeaderWriterFilter@4a225014, org.springframework.security.web.authentication.logout.LogoutFilter@2389f546, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@530a46f4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a36da5e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67521a79, org.springframework.security.web.access.ExceptionTranslationFilter@6f9b5f01, az.spring.blog.security.JwtRequestFilter@3d42b756, org.springframework.security.web.access.intercept.AuthorizationFilter@f5b4ca6]
+2024-05-09T22:15:30.718+04:00  INFO 13052 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:15:30.725+04:00  INFO 13052 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.385 seconds (process running for 5.164)
+2024-05-09T22:15:30.752+04:00  INFO 13052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:15:30.756+04:00  INFO 13052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:15:30.767+04:00  INFO 13052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:16:16.271+04:00  INFO 13556 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 13556 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:16:16.273+04:00  INFO 13556 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:16:16.979+04:00  INFO 13556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:16:17.058+04:00  INFO 13556 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:16:17.677+04:00  INFO 13556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:16:17.690+04:00  INFO 13556 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:16:17.691+04:00  INFO 13556 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:16:17.810+04:00  INFO 13556 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:16:17.811+04:00  INFO 13556 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1497 ms
+2024-05-09T22:16:18.272+04:00  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:16:18.588+04:00  INFO 13556 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@74d22ddd
+2024-05-09T22:16:18.591+04:00  INFO 13556 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:16:18.675+04:00  INFO 13556 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:16:19.779+04:00  INFO 13556 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:16:20.183+04:00  WARN 13556 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:16:20.232+04:00  WARN 13556 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d3228543-ed25-4e20-a5f1-31f4425e30f8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:16:20.549+04:00  INFO 13556 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@256d8f17, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2319c1e0, org.springframework.security.web.context.SecurityContextHolderFilter@397f925e, org.springframework.security.web.header.HeaderWriterFilter@3a36da5e, org.springframework.security.web.authentication.logout.LogoutFilter@f5b4ca6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@474deb4c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9771c71, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@659e003e, org.springframework.security.web.access.ExceptionTranslationFilter@62376bdd, az.spring.blog.security.JwtRequestFilter@15d2ea6b, org.springframework.security.web.access.intercept.AuthorizationFilter@bb1b872]
+2024-05-09T22:16:20.765+04:00  INFO 13556 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:16:20.773+04:00  INFO 13556 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 5.073 seconds (process running for 5.757)
+2024-05-09T22:16:34.962+04:00  INFO 13556 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:18:43.200+04:00  INFO 13556 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:18:43.200+04:00  INFO 13556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:18:43.213+04:00  INFO 13556 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:18:46.439+04:00  INFO 18284 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 18284 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:18:46.442+04:00  INFO 18284 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:18:47.170+04:00  INFO 18284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:18:47.266+04:00  INFO 18284 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:18:47.787+04:00  INFO 18284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:18:47.798+04:00  INFO 18284 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:18:47.799+04:00  INFO 18284 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:18:47.903+04:00  INFO 18284 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:18:47.904+04:00  INFO 18284 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1415 ms
+2024-05-09T22:18:48.325+04:00  INFO 18284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:18:48.609+04:00  INFO 18284 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e7bb00e
+2024-05-09T22:18:48.611+04:00  INFO 18284 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:18:48.671+04:00  INFO 18284 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:18:49.480+04:00  INFO 18284 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:18:49.799+04:00  WARN 18284 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:18:49.829+04:00  WARN 18284 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d4974dc4-11d3-464a-9817-86521275998c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:18:50.058+04:00  INFO 18284 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@64245ca9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@66cb9a63, org.springframework.security.web.context.SecurityContextHolderFilter@b1f36e5, org.springframework.security.web.header.HeaderWriterFilter@62376bdd, org.springframework.security.web.authentication.logout.LogoutFilter@6fe91918, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@397f925e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2e88ad38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@256d8f17, org.springframework.security.web.access.ExceptionTranslationFilter@530a46f4, az.spring.blog.security.JwtRequestFilter@790f4933, org.springframework.security.web.access.intercept.AuthorizationFilter@1512efe9]
+2024-05-09T22:18:50.248+04:00  INFO 18284 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:18:50.256+04:00  INFO 18284 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.405 seconds (process running for 5.142)
+2024-05-09T22:19:08.477+04:00  INFO 18284 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:19:31.117+04:00  INFO 18284 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:19:31.121+04:00  INFO 18284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:19:31.136+04:00  INFO 18284 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:19:35.853+04:00  INFO 13912 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 13912 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:19:35.855+04:00  INFO 13912 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:19:36.593+04:00  INFO 13912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:19:36.668+04:00  INFO 13912 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:19:37.144+04:00  INFO 13912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:19:37.152+04:00  INFO 13912 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:19:37.152+04:00  INFO 13912 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:19:37.234+04:00  INFO 13912 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:19:37.235+04:00  INFO 13912 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2024-05-09T22:19:37.639+04:00  INFO 13912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:19:37.916+04:00  INFO 13912 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@844e66d
+2024-05-09T22:19:37.918+04:00  INFO 13912 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:19:37.968+04:00  INFO 13912 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:19:38.779+04:00  INFO 13912 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:19:39.097+04:00  WARN 13912 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:19:39.121+04:00  WARN 13912 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8508bc41-0a47-4f5c-9ab9-c252bcdebbda
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:19:39.344+04:00  INFO 13912 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6e111aeb, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55a5eea3, org.springframework.security.web.context.SecurityContextHolderFilter@9771c71, org.springframework.security.web.header.HeaderWriterFilter@6ba02f70, org.springframework.security.web.authentication.logout.LogoutFilter@73839f22, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8cce9ad, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63541cd4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46ab8e4b, org.springframework.security.web.access.ExceptionTranslationFilter@35975b05, az.spring.blog.security.JwtRequestFilter@552b15f6, org.springframework.security.web.access.intercept.AuthorizationFilter@5f3c866c]
+2024-05-09T22:19:39.546+04:00  INFO 13912 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:19:39.557+04:00  INFO 13912 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.272 seconds (process running for 4.962)
+2024-05-09T22:19:42.744+04:00  INFO 13912 --- [http-nio-8090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:19:42.869+04:00  INFO 13912 --- [http-nio-8090-exec-2] a.s.b.service.UserChangePasswordService  : Inside changePassword az.spring.blog.request.user.UserChangePasswordRequest@6eb7bf6
+2024-05-09T22:19:43.050+04:00 ERROR 13912 --- [http-nio-8090-exec-2] a.s.b.exception.handler.CustomException  : handlerIncorrectPasswordException The passwords you have entered do not match : 
+2024-05-09T22:19:57.080+04:00  INFO 13912 --- [http-nio-8090-exec-4] a.s.b.service.UserChangePasswordService  : Inside changePassword az.spring.blog.request.user.UserChangePasswordRequest@4130fda9
+2024-05-09T22:19:57.177+04:00 ERROR 13912 --- [http-nio-8090-exec-4] a.s.b.exception.handler.CustomException  : handlerIncorrectPasswordException The password you have entered is incorrect : 
+2024-05-09T22:20:06.412+04:00  INFO 13912 --- [http-nio-8090-exec-8] a.s.b.service.UserChangePasswordService  : Inside changePassword az.spring.blog.request.user.UserChangePasswordRequest@535fd0f2
+2024-05-09T22:20:06.420+04:00 ERROR 13912 --- [http-nio-8090-exec-8] a.s.b.exception.handler.CustomException  : handlerUserNotFoundException User not found : 
+2024-05-09T22:20:16.264+04:00  INFO 13912 --- [http-nio-8090-exec-7] a.s.b.service.UserChangePasswordService  : Inside changePassword az.spring.blog.request.user.UserChangePasswordRequest@425740fa
+2024-05-09T22:20:16.468+04:00  INFO 13912 --- [http-nio-8090-exec-7] a.s.b.service.UserChangePasswordService  : Inside savedUser az.spring.blog.entity.user.User@dadbcfb
+2024-05-09T22:21:06.433+04:00  INFO 13912 --- [http-nio-8090-exec-9] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@3b346e90
+2024-05-09T22:21:36.847+04:00  INFO 13912 --- [http-nio-8090-exec-6] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@4f753169
+2024-05-09T22:21:48.294+04:00  INFO 13912 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:21:48.294+04:00  INFO 13912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:21:48.311+04:00  INFO 13912 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:24:41.435+04:00  INFO 22688 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 22688 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:24:41.437+04:00  INFO 22688 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:24:42.096+04:00  INFO 22688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:24:42.161+04:00  INFO 22688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:24:42.639+04:00  INFO 22688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:24:42.647+04:00  INFO 22688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:24:42.647+04:00  INFO 22688 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:24:42.740+04:00  INFO 22688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:24:42.741+04:00  INFO 22688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
+2024-05-09T22:24:43.184+04:00  INFO 22688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:24:43.500+04:00  INFO 22688 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e7bb00e
+2024-05-09T22:24:43.506+04:00  INFO 22688 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:24:43.547+04:00  INFO 22688 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:24:44.345+04:00  INFO 22688 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:24:44.635+04:00  WARN 22688 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:24:44.666+04:00  WARN 22688 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9bb1d685-e732-4cdb-9f25-d990cc4e4189
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:24:44.902+04:00  INFO 22688 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@66cb9a63, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@256d8f17, org.springframework.security.web.context.SecurityContextHolderFilter@52afcdd8, org.springframework.security.web.header.HeaderWriterFilter@3b8a063d, org.springframework.security.web.authentication.logout.LogoutFilter@4d3bde85, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@35975b05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2148849f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2319c1e0, org.springframework.security.web.access.ExceptionTranslationFilter@3180131e, az.spring.blog.security.JwtRequestFilter@790f4933, org.springframework.security.web.access.intercept.AuthorizationFilter@7cc7e441]
+2024-05-09T22:24:45.082+04:00  INFO 22688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:24:45.092+04:00  INFO 22688 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.213 seconds (process running for 4.908)
+2024-05-09T22:24:56.309+04:00  INFO 22688 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:24:56.451+04:00  INFO 22688 --- [http-nio-8090-exec-1] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@4402fa37
+2024-05-09T22:25:04.434+04:00  INFO 22688 --- [http-nio-8090-exec-4] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@522cabc3
+2024-05-09T22:25:04.569+04:00 ERROR 22688 --- [http-nio-8090-exec-4] a.s.b.exception.handler.CustomException  : handlerIllegalArgumentException Invalid salt
+2024-05-09T22:25:32.279+04:00  INFO 22688 --- [http-nio-8090-exec-2] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@39007370
+2024-05-09T22:25:36.429+04:00  INFO 22688 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:25:36.429+04:00  INFO 22688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:25:36.444+04:00  INFO 22688 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:26:04.899+04:00  INFO 22436 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 22436 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:26:04.903+04:00  INFO 22436 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:26:05.563+04:00  INFO 22436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:26:05.625+04:00  INFO 22436 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 55 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:26:06.168+04:00  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:26:06.180+04:00  INFO 22436 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:26:06.181+04:00  INFO 22436 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:26:06.283+04:00  INFO 22436 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:26:06.284+04:00  INFO 22436 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1334 ms
+2024-05-09T22:26:06.836+04:00  INFO 22436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:26:07.220+04:00  INFO 22436 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5731caaf
+2024-05-09T22:26:07.223+04:00  INFO 22436 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:26:07.295+04:00  INFO 22436 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:26:08.197+04:00  INFO 22436 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:26:08.504+04:00  WARN 22436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:26:08.537+04:00  WARN 22436 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4aa644ed-6aec-4e61-84c7-859925e09714
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:26:08.768+04:00  INFO 22436 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@74691677, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3314f179, org.springframework.security.web.context.SecurityContextHolderFilter@22657db1, org.springframework.security.web.header.HeaderWriterFilter@5ef48b08, org.springframework.security.web.authentication.logout.LogoutFilter@39a03ccc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5325674a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5b6ec94a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1abd1a28, org.springframework.security.web.access.ExceptionTranslationFilter@429dde4d, az.spring.blog.security.JwtRequestFilter@578c99ac, org.springframework.security.web.access.intercept.AuthorizationFilter@45a05350]
+2024-05-09T22:26:08.965+04:00  INFO 22436 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:26:08.974+04:00  INFO 22436 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.592 seconds (process running for 5.225)
+2024-05-09T22:26:14.642+04:00  INFO 22436 --- [http-nio-8090-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:26:14.747+04:00  INFO 22436 --- [http-nio-8090-exec-3] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@5682e0ff
+2024-05-09T22:26:30.557+04:00  INFO 22436 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:26:30.560+04:00  INFO 22436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:26:30.570+04:00  INFO 22436 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:42:51.336+04:00  INFO 19412 --- [main] az.spring.blog.BlogApplicationTests      : Starting BlogApplicationTests using Java 17.0.8 with PID 19412 (started by User in C:\Users\User\Blog)
+2024-05-09T22:42:51.339+04:00  INFO 19412 --- [main] az.spring.blog.BlogApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:42:52.250+04:00  INFO 19412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:42:52.341+04:00  INFO 19412 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:42:53.571+04:00  INFO 19412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:42:54.022+04:00  INFO 19412 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@994544
+2024-05-09T22:42:54.024+04:00  INFO 19412 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:42:54.092+04:00  INFO 19412 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:42:55.271+04:00  INFO 19412 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:42:55.781+04:00  WARN 19412 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:42:55.837+04:00  WARN 19412 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3d035c67-1c2c-4bb2-9d37-7de918ad5b54
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:42:56.277+04:00  INFO 19412 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@390978, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@561c031, org.springframework.security.web.context.SecurityContextHolderFilter@4779df3d, org.springframework.security.web.header.HeaderWriterFilter@77604a86, org.springframework.security.web.authentication.logout.LogoutFilter@c3c63c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ef7fb04, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5ae67f05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7343d843, org.springframework.security.web.access.ExceptionTranslationFilter@62977afb, az.spring.blog.security.JwtRequestFilter@47f5ab58, org.springframework.security.web.access.intercept.AuthorizationFilter@7f7f544a]
+2024-05-09T22:42:56.697+04:00  INFO 19412 --- [main] az.spring.blog.BlogApplicationTests      : Started BlogApplicationTests in 5.854 seconds (process running for 7.021)
+2024-05-09T22:42:57.001+04:00  INFO 19412 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:42:57.005+04:00  INFO 19412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:42:57.019+04:00  INFO 19412 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-05-09T22:44:24.667+04:00  INFO 944 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 944 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T22:44:24.670+04:00  INFO 944 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T22:44:25.328+04:00  INFO 944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T22:44:25.396+04:00  INFO 944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 1 JPA repository interfaces.
+2024-05-09T22:44:25.892+04:00  INFO 944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T22:44:25.902+04:00  INFO 944 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T22:44:25.902+04:00  INFO 944 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T22:44:25.988+04:00  INFO 944 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T22:44:25.989+04:00  INFO 944 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1271 ms
+2024-05-09T22:44:26.413+04:00  INFO 944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T22:44:26.721+04:00  INFO 944 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f1f9515
+2024-05-09T22:44:26.724+04:00  INFO 944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T22:44:26.786+04:00  INFO 944 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T22:44:27.871+04:00  INFO 944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:44:28.273+04:00  WARN 944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T22:44:28.301+04:00  WARN 944 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 45a61fb8-c231-4b89-b169-6cfb0c3325f1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T22:44:28.597+04:00  INFO 944 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@bb1b872, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64245ca9, org.springframework.security.web.context.SecurityContextHolderFilter@3a36da5e, org.springframework.security.web.header.HeaderWriterFilter@3180131e, org.springframework.security.web.authentication.logout.LogoutFilter@5e8a678a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52afcdd8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ba02f70, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66cb9a63, org.springframework.security.web.access.ExceptionTranslationFilter@350d9d23, az.spring.blog.security.JwtRequestFilter@2526d5f9, org.springframework.security.web.access.intercept.AuthorizationFilter@73839f22]
+2024-05-09T22:44:28.796+04:00  INFO 944 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T22:44:28.805+04:00  INFO 944 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 4.742 seconds (process running for 5.47)
+2024-05-09T22:45:21.079+04:00  INFO 944 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-05-09T22:45:21.209+04:00  INFO 944 --- [http-nio-8090-exec-1] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@1f13ee88
+2024-05-09T22:45:25.729+04:00  INFO 944 --- [http-nio-8090-exec-3] a.spring.blog.service.UserLoginService   : Inside userLoginRequest az.spring.blog.request.user.UserLoginRequest@235f589c
+2024-05-09T22:45:55.093+04:00 ERROR 944 --- [http-nio-8090-exec-5] a.s.b.exception.handler.CustomException  : handlerUserNotFoundException User not found : 
+2024-05-09T22:46:05.304+04:00 ERROR 944 --- [http-nio-8090-exec-7] a.s.b.exception.handler.CustomException  : handlerUserNotFoundException User not found : 
+2024-05-09T22:46:11.368+04:00 ERROR 944 --- [http-nio-8090-exec-4] a.s.b.exception.handler.CustomException  : handlerUserNotFoundException User not found : 
+2024-05-09T22:46:41.826+04:00  INFO 944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T22:46:41.830+04:00  INFO 944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T22:46:41.841+04:00  INFO 944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
