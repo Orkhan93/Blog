@@ -1,0 +1,27 @@
+2024-05-09T12:36:59.406+04:00  INFO 19624 --- [main] az.spring.blog.BlogApplication           : Starting BlogApplication using Java 17.0.8 with PID 19624 (C:\Users\User\Blog\target\classes started by User in C:\Users\User\Blog)
+2024-05-09T12:36:59.410+04:00  INFO 19624 --- [main] az.spring.blog.BlogApplication           : No active profile set, falling back to 1 default profile: "default"
+2024-05-09T12:37:00.045+04:00  INFO 19624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-05-09T12:37:00.064+04:00  INFO 19624 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 11 ms. Found 0 JPA repository interfaces.
+2024-05-09T12:37:00.574+04:00  INFO 19624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2024-05-09T12:37:00.586+04:00  INFO 19624 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-05-09T12:37:00.587+04:00  INFO 19624 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-05-09T12:37:00.695+04:00  INFO 19624 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-05-09T12:37:00.696+04:00  INFO 19624 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1235 ms
+2024-05-09T12:37:01.130+04:00  INFO 19624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-05-09T12:37:01.523+04:00  INFO 19624 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b57f915
+2024-05-09T12:37:01.525+04:00  INFO 19624 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-05-09T12:37:01.597+04:00  INFO 19624 --- [main] SQL dialect                              : HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+2024-05-09T12:37:01.927+04:00  INFO 19624 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T12:37:01.975+04:00  WARN 19624 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-05-09T12:37:02.325+04:00  WARN 19624 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 41121963-e83d-4561-9ead-a0d3d6e0f7e8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-05-09T12:37:02.411+04:00  INFO 19624 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@684a802a, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b5c9412, org.springframework.security.web.context.SecurityContextHolderFilter@d5a72cd, org.springframework.security.web.header.HeaderWriterFilter@b787274, org.springframework.security.web.csrf.CsrfFilter@7074da1d, org.springframework.security.web.authentication.logout.LogoutFilter@ba87c11, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@64ef2719, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@3c4c7e51, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@69d902f9, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@10a064bd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3b77940f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1aa31454, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@547052, org.springframework.security.web.access.ExceptionTranslationFilter@776d8097, org.springframework.security.web.access.intercept.AuthorizationFilter@4258106]
+2024-05-09T12:37:02.480+04:00  INFO 19624 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2024-05-09T12:37:02.493+04:00  INFO 19624 --- [main] az.spring.blog.BlogApplication           : Started BlogApplication in 3.659 seconds (process running for 4.297)
+2024-05-09T12:37:05.910+04:00  INFO 19624 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-05-09T12:37:05.912+04:00  INFO 19624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-05-09T12:37:05.922+04:00  INFO 19624 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
