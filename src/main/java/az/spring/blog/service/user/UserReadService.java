@@ -1,4 +1,4 @@
-package az.spring.blog.service;
+package az.spring.blog.service.user;
 
 import az.spring.blog.entity.user.User;
 import az.spring.blog.exception.UserNotFoundException;

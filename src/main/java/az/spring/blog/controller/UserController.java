@@ -1,15 +1,10 @@
 package az.spring.blog.controller;
 
-import az.spring.blog.request.user.UserChangePasswordRequest;
-import az.spring.blog.request.user.UserLoginRequest;
-import az.spring.blog.request.user.UserReadRequest;
-import az.spring.blog.request.user.UserRegisterRequest;
+import az.spring.blog.request.user.*;
 import az.spring.blog.response.user.UserReadResponse;
 import az.spring.blog.response.user.UserRegisterResponse;
-import az.spring.blog.service.UserChangePasswordService;
-import az.spring.blog.service.UserLoginService;
-import az.spring.blog.service.UserReadService;
-import az.spring.blog.service.UserRegisterService;
+import az.spring.blog.service.user.*;
+import jakarta.mail.MessagingException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -24,6 +19,7 @@ public class UserController {
     private final UserLoginService loginService;
     private final UserChangePasswordService changePasswordService;
     private final UserReadService readService;
+    private final UserForgotPasswordService forgotPasswordService;
 
     @PostMapping("/register")
     public ResponseEntity<UserRegisterResponse> register(@RequestBody UserRegisterRequest registerRequest) {
@@ -45,6 +41,12 @@ public class UserController {
     @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<UserReadResponse> changePassword(@RequestBody UserReadRequest request) {
         return ResponseEntity.ok(readService.read(request));
+    }
+
+    @PostMapping("/forgot-password")
+    @ResponseStatus(HttpStatus.OK)
+    public ResponseEntity<String> forgotPassword(@RequestBody UserForgotPasswordRequest forgotPasswordRequest) throws MessagingException {
+        return ResponseEntity.ok(forgotPasswordService.forgotPassword(forgotPasswordRequest));
     }
 
 }
