@@ -11,7 +11,7 @@ import java.util.List;
 @Setter
 @Getter
 @Builder
-public class BlogSpecificReadResponse {
+public class BlogInfoReadResponse {
 
     BlogReadDTO main;
     List<BlogCommentResponse> commentList;

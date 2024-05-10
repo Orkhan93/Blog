@@ -22,8 +22,7 @@ public class WebSecurityConfiguration {
         httpSecurity.csrf().disable().cors().disable();
         httpSecurity.authorizeHttpRequests()
                 .requestMatchers("/users/auth/register", "/users/auth/login",
-                        "/users/auth/change-password", "/users/auth/forgot-password",
-                        "/blogs/create","/blogs/insert-comment","/blogs/get","/blogs/get-blog-id")
+                        "/users/auth/change-password", "/users/auth/forgot-password")
                 .permitAll()
                 .anyRequest().authenticated();
         httpSecurity.addFilterBefore(jwtRequestFilter, AuthorizationFilter.class);

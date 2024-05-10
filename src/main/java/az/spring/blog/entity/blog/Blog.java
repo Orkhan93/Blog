@@ -1,5 +1,6 @@
 package az.spring.blog.entity.blog;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -39,9 +40,13 @@ public class Blog {
     private LocalDateTime publishedDate;
 
     @Column(name = "created_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    @JsonFormat(pattern = "dd-mm-yyyy'T'HH:mm")
     private LocalDateTime createdAt;
 
     @Column(name = "updated_at")
+    @Temporal(TemporalType.TIMESTAMP)
+    @JsonFormat(pattern = "dd-mm-yyyy'T'HH:mm")
     private LocalDateTime updatedAt;
 
     @Column(name = "status")
@@ -57,6 +62,7 @@ public class Blog {
     public void prePersist() {
         status = true;
         published = true;
+        createdAt = LocalDateTime.now();
     }
 
 }

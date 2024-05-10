@@ -5,7 +5,7 @@ import lombok.Setter;
 
 @Setter
 @Getter
-public class BlogSpecificReadRequest {
+public class BlogInfoReadRequest {
 
     private Long fkBlogId;
 

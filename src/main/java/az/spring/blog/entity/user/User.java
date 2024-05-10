@@ -53,9 +53,6 @@ public class User {
     @Column(name = "updated_at")
     private LocalDateTime updatedAt;
 
-    @Column(name = "email_verified", nullable = false)
-    private Boolean emailVerified = false;
-
     @PostPersist
     public void prePersist() {
         status = true;
