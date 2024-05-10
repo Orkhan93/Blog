@@ -8,7 +8,7 @@ import lombok.Setter;
 public class BlogImageCreateDTO {
 
     private String filePath;
-//    private Long fkBlogId;
+    private Long fkBlogId;
     private String altText;
 
 }

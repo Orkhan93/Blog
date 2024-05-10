@@ -10,6 +10,8 @@ import java.time.LocalDateTime;
 public class BlogCreateServiceDTO {
 
     private Long fkUserId;
+    private String fkUserId;
+    private String fkBlogImageId;
     private String name;
     private String title;
     private String content;
