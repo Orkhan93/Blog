@@ -30,10 +30,10 @@ public class UserType {
     private Boolean status;
 
     @Column(name = "created_by")
-    private String createdBy;
+    private Long createdBy;
 
     @Column(name = "updated_by")
-    private String updatedBy;
+    private Long updatedBy;
 
     @PrePersist
     public void prePersist() {
