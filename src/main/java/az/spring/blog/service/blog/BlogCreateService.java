@@ -16,10 +16,6 @@ import az.spring.blog.response.blog.BlogCreateResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
-import az.spring.blog.repository.BlogRepository;
-import az.spring.blog.repository.UserRepository;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -41,9 +37,11 @@ public class BlogCreateService {
         blogRequest.setCreatedBy(user.getId());
         Blog saveBlog = blogRepository.save(blogMapper.requestToEntity(blogRequest));
 
-        BlogImage blogImage = blogImageMapper.requestToEntity(createRequest.getBlogImageRequest());
-        blogImage.setCreatedBy(user.getId());
-        blogImageRepository.save(blogImage);
+        createRequest.getBlogImageRequest().forEach(image -> {
+            BlogImage blogImage = blogImageMapper.requestToEntity(image);
+            blogImage.setCreatedBy(user.getId());
+            blogImageRepository.save(blogImage);
+        });
         return blogMapper.entityToResponse(saveBlog);
     }
 
