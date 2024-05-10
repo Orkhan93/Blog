@@ -20,13 +20,13 @@ public class WebSecurityConfiguration {
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
         httpSecurity.csrf().disable().cors().disable();
-        httpSecurity.addFilterBefore(jwtRequestFilter, AuthorizationFilter.class);
         httpSecurity.authorizeHttpRequests()
-                .requestMatchers("/users/auth/register", "/users/auth/login", "/auth/verify",
+                .requestMatchers("/users/auth/register", "/users/auth/login",
                         "/users/auth/change-password", "/users/auth/forgot-password",
-                        "/currencies/*")
+                        "/blogs/create","/blogs/insert-comment")
                 .permitAll()
                 .anyRequest().authenticated();
+        httpSecurity.addFilterBefore(jwtRequestFilter, AuthorizationFilter.class);
         return httpSecurity.build();
     }
 

@@ -1,5 +1,7 @@
 package az.spring.blog.request.blog;
 
+import az.spring.blog.request.blogimage.BlogImageCreateDTO;
+import lombok.Getter;
 import az.spring.blog.request.blogcomment.BlogCommentCreateDTO;
 import az.spring.blog.request.blogimage.BlogImageCreateDTO;
 import lombok.AllArgsConstructor;
