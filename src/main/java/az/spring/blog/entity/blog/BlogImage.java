@@ -3,11 +3,12 @@ package az.spring.blog.entity.blog;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.java.Log;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "user")
+@Table(name = "blog_image")
 @Getter
 @Setter
 public class BlogImage {

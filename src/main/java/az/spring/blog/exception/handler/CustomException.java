@@ -4,15 +4,20 @@ import az.spring.blog.exception.IncorrectPasswordException;
 import az.spring.blog.exception.UserAlreadyExistsException;
 import az.spring.blog.exception.UserNotFoundException;
 import az.spring.blog.exception.error.ErrorResponse;
+import lombok.extern.log4j.Log4j2;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
+import org.springframework.web.context.request.WebRequest;
 
-@Slf4j
+import java.util.Arrays;
+
+@Log4j2
 @RestControllerAdvice
 public class CustomException {
 

@@ -9,6 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 public class BlogCreateServiceDTO {
 
+    private Long fkUserId;
     private String fkUserId;
     private String fkBlogImageId;
     private String name;
