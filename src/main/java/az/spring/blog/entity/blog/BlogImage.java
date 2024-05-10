@@ -3,11 +3,12 @@ package az.spring.blog.entity.blog;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
+import lombok.extern.java.Log;
 
 import java.time.LocalDateTime;
 
 @Entity
-@Table(name = "user")
+@Table(name = "blog_image")
 @Getter
 @Setter
 public class BlogImage {
@@ -36,10 +37,10 @@ public class BlogImage {
     private Boolean status;
 
     @Column(name = "created_by")
-    private String createdBy;
+    private Long createdBy;
 
     @Column(name = "updated_by")
-    private String updatedBy;
+    private Long updatedBy;
 
     @PrePersist
     public void prePersist() {

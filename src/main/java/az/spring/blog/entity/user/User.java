@@ -23,10 +23,10 @@ public class User {
     @Column(name = "username")
     private String username;
 
-    @Column(name = "user_pin")
+    @Column(name = "name")
     private String name;
 
-    @Column(name = "user_password")
+    @Column(name = "password")
     private String password;
 
     @Column(name = "surname")
