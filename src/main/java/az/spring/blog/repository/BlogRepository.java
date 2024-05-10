@@ -2,15 +2,15 @@ package az.spring.blog.repository;
 
 import az.spring.blog.entity.blog.Blog;
 import az.spring.blog.response.blog.BlogReadDTO;
-import az.spring.blog.response.blog.BlogSpecificReadResponse;
 import az.spring.blog.response.blogcomment.BlogCommentResponse;
 import az.spring.blog.response.blogimage.BlogImageResponse;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.data.jpa.repository.Query;
 
 import java.util.List;
 
-public interface BlogRepository extends JpaRepository<Blog, Long> {
+public interface BlogRepository extends JpaRepository<Blog, Long>, JpaSpecificationExecutor<Blog> {
 
     @Query("""
                 select distinct new az.spring.blog.response.blog.BlogReadDTO(
